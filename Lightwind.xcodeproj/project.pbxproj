@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9B52CBB140AF43A00D469EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B52CBA140AF43A00D469EE /* UIKit.framework */; };
+		C9B52CBD140AF43A00D469EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B52CBC140AF43A00D469EE /* Foundation.framework */; };
+		C9B52CC3140AF43A00D469EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9B52CC1140AF43A00D469EE /* InfoPlist.strings */; };
+		C9B52CC5140AF43B00D469EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B52CC4140AF43B00D469EE /* main.m */; };
+		C9B52CC9140AF43B00D469EE /* HBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B52CC8140AF43B00D469EE /* HBTAppDelegate.m */; };
+		C9B52CCC140AF43B00D469EE /* HBTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B52CCB140AF43B00D469EE /* HBTViewController.m */; };
+		C9B52CCF140AF43B00D469EE /* HBTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B52CCD140AF43B00D469EE /* HBTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9B52CB6140AF43A00D469EE /* Lightwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lightwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B52CBA140AF43A00D469EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9B52CBC140AF43A00D469EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9B52CC0140AF43A00D469EE /* Lightwind-Info.plist */ = {isa = PBXFileReference; path = "Lightwind-Info.plist"; sourceTree = "<group>"; };
+		C9B52CC2140AF43A00D469EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9B52CC4140AF43B00D469EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9B52CC6140AF43B00D469EE /* Lightwind-Prefix.pch */ = {isa = PBXFileReference; path = "Lightwind-Prefix.pch"; sourceTree = "<group>"; };
+		C9B52CC7140AF43B00D469EE /* HBTAppDelegate.h */ = {isa = PBXFileReference; path = HBTAppDelegate.h; sourceTree = "<group>"; };
+		C9B52CC8140AF43B00D469EE /* HBTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTAppDelegate.m; sourceTree = "<group>"; };
+		C9B52CCA140AF43B00D469EE /* HBTViewController.h */ = {isa = PBXFileReference; path = HBTViewController.h; sourceTree = "<group>"; };
+		C9B52CCB140AF43B00D469EE /* HBTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTViewController.m; sourceTree = "<group>"; };
+		C9B52CCE140AF43B00D469EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HBTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B52CB3140AF43A00D469EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B52CBB140AF43A00D469EE /* UIKit.framework in Frameworks */,
+				C9B52CBD140AF43A00D469EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B52CAB140AF43900D469EE = {
+			isa = PBXGroup;
+			children = (
+				C9B52CBE140AF43A00D469EE /* Lightwind */,
+				C9B52CB9140AF43A00D469EE /* Frameworks */,
+				C9B52CB7140AF43A00D469EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B52CB7140AF43A00D469EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B52CB6140AF43A00D469EE /* Lightwind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B52CB9140AF43A00D469EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B52CBA140AF43A00D469EE /* UIKit.framework */,
+				C9B52CBC140AF43A00D469EE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9B52CBE140AF43A00D469EE /* Lightwind */ = {
+			isa = PBXGroup;
+			children = (
+				C9B52CC7140AF43B00D469EE /* HBTAppDelegate.h */,
+				C9B52CC8140AF43B00D469EE /* HBTAppDelegate.m */,
+				C9B52CCA140AF43B00D469EE /* HBTViewController.h */,
+				C9B52CCB140AF43B00D469EE /* HBTViewController.m */,
+				C9B52CCD140AF43B00D469EE /* HBTViewController.xib */,
+				C9B52CBF140AF43A00D469EE /* Supporting Files */,
+			);
+			path = Lightwind;
+			sourceTree = "<group>";
+		};
+		C9B52CBF140AF43A00D469EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B52CC0140AF43A00D469EE /* Lightwind-Info.plist */,
+				C9B52CC1140AF43A00D469EE /* InfoPlist.strings */,
+				C9B52CC4140AF43B00D469EE /* main.m */,
+				C9B52CC6140AF43B00D469EE /* Lightwind-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B52CB5140AF43A00D469EE /* Lightwind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B52CD2140AF43B00D469EE /* Build configuration list for PBXNativeTarget "Lightwind" */;
+			buildPhases = (
+				C9B52CB2140AF43A00D469EE /* Sources */,
+				C9B52CB3140AF43A00D469EE /* Frameworks */,
+				C9B52CB4140AF43A00D469EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lightwind;
+			productName = Lightwind;
+			productReference = C9B52CB6140AF43A00D469EE /* Lightwind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B52CAD140AF43900D469EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Habitatus;
+			};
+			buildConfigurationList = C9B52CB0140AF43900D469EE /* Build configuration list for PBXProject "Lightwind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9B52CAB140AF43900D469EE;
+			productRefGroup = C9B52CB7140AF43A00D469EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B52CB5140AF43A00D469EE /* Lightwind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B52CB4140AF43A00D469EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B52CC3140AF43A00D469EE /* InfoPlist.strings in Resources */,
+				C9B52CCF140AF43B00D469EE /* HBTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B52CB2140AF43A00D469EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B52CC5140AF43B00D469EE /* main.m in Sources */,
+				C9B52CC9140AF43B00D469EE /* HBTAppDelegate.m in Sources */,
+				C9B52CCC140AF43B00D469EE /* HBTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9B52CC1140AF43A00D469EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B52CC2140AF43A00D469EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9B52CCD140AF43B00D469EE /* HBTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B52CCE140AF43B00D469EE /* en */,
+			);
+			name = HBTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B52CD0140AF43B00D469EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9B52CD1140AF43B00D469EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9B52CD3140AF43B00D469EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lightwind/Lightwind-Prefix.pch";
+				INFOPLIST_FILE = "Lightwind/Lightwind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9B52CD4140AF43B00D469EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lightwind/Lightwind-Prefix.pch";
+				INFOPLIST_FILE = "Lightwind/Lightwind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B52CB0140AF43900D469EE /* Build configuration list for PBXProject "Lightwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B52CD0140AF43B00D469EE /* Debug */,
+				C9B52CD1140AF43B00D469EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B52CD2140AF43B00D469EE /* Build configuration list for PBXNativeTarget "Lightwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B52CD3140AF43B00D469EE /* Debug */,
+				C9B52CD4140AF43B00D469EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B52CAD140AF43900D469EE /* Project object */;
+}
