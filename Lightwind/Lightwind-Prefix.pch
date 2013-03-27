@@ -12,3 +12,7 @@
 	#import <UIKit/UIKit.h>
 	#import <Foundation/Foundation.h>
 #endif
+
+#define kNotificationMainButton	@"kNotifMainButton"
+#define kNotificationLightOn	@"kNotifLightOn"
+#define kNotificationLightOff	@"kNotifLightOff"

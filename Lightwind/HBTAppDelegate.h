@@ -7,13 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @class HBTViewController;
 
-@interface HBTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface HBTAppDelegate : UIResponder <UIApplicationDelegate> {
+	BOOL flashlightOn;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) HBTViewController *viewController;
+
+@property (nonatomic, retain) AVCaptureSession *AVSession;
+
+- (void)toggleFlashlight:(BOOL)state;
+- (void)didTouch:(NSNotification *)notification;
 
 @end
